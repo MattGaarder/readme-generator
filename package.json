@@ -1,0 +1,24 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "App within the terminal that generates a readme based on prompts to the user with inquirer module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "matt": "node folder1/info.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattGaarder/readme-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattGaarder/readme-generator/issues"
+  },
+  "homepage": "https://github.com/MattGaarder/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
