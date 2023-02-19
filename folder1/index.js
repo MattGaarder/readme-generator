@@ -1,4 +1,5 @@
 const arr = require('./data');
-const obj = require('./folder1/info');
-const inquirer =  require("inquirer")
+const obj = require('./info');
+
+// console.log(inquirer);
  module.exports = {obj, arr}
