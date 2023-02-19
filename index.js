@@ -9,11 +9,11 @@ const {arr} = require('./folder1');
 // }
 
 // doSomething();
+console.log(arr)
+// function promptTheUser(){
+//     prompt(arr.questions).then(answer => {
+//     console.log(`you are feeling ${arr.answer.greeting} today`)
+// })
+// }
 
-function promptTheUser(){
-    prompt(arr.questions).then(answer => {
-    console.log(`you are feeling ${answer.greeting} today`)
-})
-}
-
-promptTheUser();
+// promptTheUser();
