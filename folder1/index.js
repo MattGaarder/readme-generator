@@ -1,5 +1,5 @@
-const arr = require('./data');
-const obj = require('./info');
+const questions = require('./data');
+// const obj = require('./info');
 
 // console.log(inquirer);
- module.exports = {obj, arr}
+ module.exports = questions;

@@ -1,19 +1,19 @@
-const arr = ["bob", "sally", "steve"];
-
-
-const questions = [{
+const questions = [
+  {
     message: "how are you today?",
     name: "greeting",
     type: "input",
-}];
-//      {
-//     message: "how's the weather?",
-//     name: "weather",
-//     type: "input",
-// }, {
-//     message: "wanna play a game?",
-//     name: "saw",
-//     type: "input",
-// }];
+  },
+  {
+    message: "how's the weather?",
+    name: "weather",
+    type: "input",
+  },
+  {
+    message: "wanna play a game?",
+    name: "saw",
+    type: "input",
+  },
+];
 
-module.exports = {arr, questions}
+module.exports = questions;

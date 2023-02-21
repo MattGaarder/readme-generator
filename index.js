@@ -1,19 +1,24 @@
-const {prompt} =  require("inquirer");
-const fs = require('fs');
-const {arr} = require('./folder1');
-// const {questions} = require("./folder1")
+const fs = require("fs");
+const path = require('path');
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
+// array of questions for user
+const questions = [
+    {
+        message: "how are you today?",
+        name: "greeting",
+        type: "input",
+      },
+];
 
-// const doSomething = () => {
-//     console.log(arr);
-// }
+// function to initialize program
+function init() {
+    inquirer.prompt(questions).then(answer => {
+        fs.writeFile("./folder1/awesome.md", generateMarkdown(answer), err => console.log(err))
 
-// doSomething();
-console.log(arr)
-// function promptTheUser(){
-//     prompt(arr.questions).then(answer => {
-//     console.log(`you are feeling ${arr.answer.greeting} today`)
-// })
-// }
+    })
+}
 
-// promptTheUser();
+// function call to initialize program
+init();

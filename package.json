@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/MattGaarder/readme-generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^6.5.0"
   }
 }
