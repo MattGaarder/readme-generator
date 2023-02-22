@@ -1,16 +1,11 @@
 const fs = require("fs");
-const path = require('path');
+// const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-
+const heya = require("./folder1/data")
+console.log(heya);
 // array of questions for user
-const questions = [
-    {
-        message: "how are you today?",
-        name: "greeting",
-        type: "input",
-      },
-];
+
 
 // function to initialize program
 function init() {
