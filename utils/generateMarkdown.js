@@ -4,13 +4,31 @@
 
 // `;
 // }
+
+
 function generateMarkdown(data) {
-  return `# yoyoyo
-  ${data.greeting}
-  whitespace
+  return `#${data.title}
 
-  rese
+##Description:
+${data.description}
 
+##Table of Contents
+${data.table}
+
+##Installation
+${data.install}
+
+##Usage
+${data.usage}
+
+##Screenshots
+${data.screenshot}
+
+##Contributions
+${data.usage}
+
+##Contact
+${data.contact}
 `;
 }
 
