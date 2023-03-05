@@ -32,7 +32,7 @@ ${data.usage}
 
 ---
 
-## Screenshots
+## Screenshots/Screen-capture
 
 ${data.screenshot}
 
@@ -40,7 +40,7 @@ ${data.screenshot}
 
 ## Contributions
 
-${data.usage}
+${data.contribution}
 
 ---
 
@@ -48,17 +48,14 @@ ${data.usage}
 This project is licensed under the ${data.license} license.
 ${renderLicenseBadge(data.license, data)}
 ${renderLicenseText(data.license, data)}
----
-
-## Tests 
-${data.contact}
 
 ---
 
 ## Contact
 
-If you have any questions about the repository, please contact ${data.email}.
-Alternatively, please visit my github account to view my other repositories 
+If you have any questions about the project, please contact me on ${data.email}.
+
+Alternatively, please visit my github account on [${data.account}](https://github.com/${data.github}/) to view my other repositories 
 
 ---
 `

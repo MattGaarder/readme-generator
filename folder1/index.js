@@ -27,24 +27,25 @@ const questions = [
     type: "input",
   },
   {
+    message: "Please provide guidance on how users can contribute to your project.",
+    name: "contribution",
+    type: "input",
+  },
+  {
     message: "Please select the license you would like to use for your project.",
     name: "license",
     type: "list",
     choices: ['MIT', 'GNU GPLv3', 'Apache License 2.0', 'Mozilla Public License 2.0'],
   },
   {
-    message: "Please enter your email and github username for those with further questions regarding the project or any other concerns or issues.",
-    name: "contact",
+    message: "Please enter your email for those with further questions regarding the project, or any other concerns or issues.",
+    name: "email",
     type: "input",
   },
+
   {
-    message: "Would you like a table of contents?",
-    name: "table",
-    type: "input",
-  },
-  {
-    message: "Would you like a table of contents?",
-    name: "table",
+    message: "Please enter your github account for those wishing to view any other projects or material.",
+    name: "account",
     type: "input",
   },
 ];

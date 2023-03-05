@@ -1,4 +1,4 @@
-# a
+# Professional README.md Generator
 
 ## Description:
 
@@ -56,6 +56,7 @@ undefined
 ## Contact
 
 If you have any questions about the project, please contact me on matteus.gaarder@gmail.com.
+
 Alternatively, please visit my github account on [mattgaarder](https://github.com/undefined/) to view my other repositories 
 
 ---
