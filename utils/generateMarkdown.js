@@ -1,35 +1,50 @@
-// // function to generate markdown for README
-// function generateMarkdown(data) {
-//   return `# ${data.title}
-
-// `;
-// }
-
-
 function generateMarkdown(data) {
-  return `#${data.title}
+return `# ${data.title}
+---
 
-##Description:
+## Description:
 ${data.description}
+---
 
-##Table of Contents
+<!--ts-->
+## Table of Contents
 ${data.table}
+<!--ts-->
 
-##Installation
+## Installation
 ${data.install}
+---
 
-##Usage
+## Usage
 ${data.usage}
+---
 
-##Screenshots
+## Screenshots
 ${data.screenshot}
+---
 
-##Contributions
+## Contributions
 ${data.usage}
+---
 
-##Contact
+## License 
 ${data.contact}
-`;
+---
+
+## Tests 
+${data.contact}
+---
+
+## Questions 
+${data.contact}
+---
+
+## Contact
+${data.contact}
+---
+`
+
+
 }
 
 module.exports = generateMarkdown;
