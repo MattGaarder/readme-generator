@@ -33,7 +33,7 @@ Install the required dependencies by running the following command: `npm install
 
 ## Screenshots/Screen-capture
 
-screen-capture here
+https://drive.google.com/file/d/1snWYO-fvmTbFT0nz8O9ZMqhMfxf2BSKw/view 
 
 ---
 
