@@ -33,7 +33,7 @@ Install the required dependencies by running the following command: `npm install
 
 ## Screenshots/Screen-capture
 
-screen-capture here
+https://drive.google.com/file/d/1snWYO-fvmTbFT0nz8O9ZMqhMfxf2BSKw/view 
 
 ---
 
@@ -46,10 +46,6 @@ Contributions from anyone who is interested in improving this project are welcom
 ## License 
 This project is licensed under the MIT license.
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
-MIT License
-
-undefined
-
 
 ---
 
@@ -57,6 +53,6 @@ undefined
 
 If you have any questions about the project, please contact me on matteus.gaarder@gmail.com.
 
-Alternatively, please visit my github account on [mattgaarder](https://github.com/undefined/) to view my other repositories 
+Alternatively, please visit my github account on [MattGaarder](https://github.com/undefined/) to view my other repositories 
 
 ---

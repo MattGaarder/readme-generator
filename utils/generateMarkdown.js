@@ -47,7 +47,6 @@ ${data.contribution}
 ## License 
 This project is licensed under the ${data.license} license.
 ${renderLicenseBadge(data.license, data)}
-${renderLicenseText(data.license, data)}
 
 ---
 
@@ -76,20 +75,5 @@ function renderLicenseBadge(license) {
   }
 }
 
-function renderLicenseText(license, data) {
-  if (license === 'MIT') {
-    return `MIT License
-
-${data.licenseText}
-`;
-  } else if (license === 'GNU GPLv3') {
-    return `GNU GPLv3 License
-
-${data.licenseText}
-`;
-  } else {
-    return '';
-  }
-}
 
 module.exports = generateMarkdown;
