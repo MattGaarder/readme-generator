@@ -12,7 +12,6 @@ function init() {
     inquirer.prompt(heya).then(answer => {
         console.log(answer);
         fs.writeFile("./folder1/awesome.md", generateMarkdown(answer), err => console.log(err))
-
     })
 }
 
