@@ -1,8 +1,8 @@
-# Professional README.md Generator
+# Team Profile Generator
 
 ## Description:
 
-A command-line application that dynamically generates a professional README.md file from a user's input using node.js and the npm inquirer package; a collection of common interactive command line user interfaces.
+This is a Node.js command-line application that generates an HTML webpage displaying summaries for each member of a software engineering team. The application takes in information about team members through a series of prompts and generates an HTML file based on the user's responses.
 
 ---
 
@@ -21,19 +21,19 @@ A command-line application that dynamically generates a professional README.md f
 
 ## Installation
 
-To use this application, you'll need to have Node.js and npm (Node Package Manager) installed on your local machine. Install them from the official Node.js website: https://nodejs.org/en/download/ Clone the repository to your local machine by running the following command in your terminal: `git clone git@github.com:MattGaarder/readme-generator.git`
+To install the application, clone the repository and install the required dependencies using the following command: `npm install`
 
 ---
 
 ## Usage
 
-Install the required dependencies by running the following command: `npm install` Once the dependencies are installed, you can start the application by running the following command: `node index.js` This will launch the application in your terminal, and you'll be prompted to answer a series of questions about your project. After you've answered all the questions, the application will generate a professional README.md file based on your input. You can find the generated file in your directory.
+To run the application, use the following command: `node index.js` You will then be prompted to enter information about each member of your team. Once you have entered all of the necessary information, the application will generate an HTML file in the output folder with a summary for each team member.
 
 ---
 
 ## Screenshots/Screen-capture
 
-https://drive.google.com/file/d/1snWYO-fvmTbFT0nz8O9ZMqhMfxf2BSKw/view 
+none
 
 ---
 
@@ -53,6 +53,6 @@ This project is licensed under the MIT license.
 
 If you have any questions about the project, please contact me on matteus.gaarder@gmail.com.
 
-Alternatively, please visit my github account on [MattGaarder](https://github.com/undefined/) to view my other repositories 
+Alternatively, please visit my github account on [MattGaarder](https://github.com/MattGaarder/) to view my other repositories 
 
 ---
