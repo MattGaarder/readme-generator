@@ -2,7 +2,8 @@
 
 ## Description:
 
-A command-line application that dynamically generates a professional README.md file from a user's input using node.js and the npm inquirer package; a collection of common interactive command line user interfaces.
+A command-line application that dynamically generates a professional README.md file from a user's input using node.js and the npm inquirer package.
+The purpose of the project was to allow the user to answer a series a prompts about a project using inquirer with node.js, and having this generate a README.md document in the project repository. 
 
 ---
 
